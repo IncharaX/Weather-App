@@ -37,6 +37,8 @@ result.innerHTML = `
 <img src="${iconUrl}">
 <p>Temperature: ${temp}°C</p>
 <p>Weather: ${weather}</p>
+<p>Humidity: ${data.main.humidity}%</p>
+<p>Wind Speed: ${data.wind.speed} m/s</p>
 `;
 
 }
